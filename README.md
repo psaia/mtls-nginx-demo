@@ -8,10 +8,10 @@
 
 ```
 # A normal http/port80 connection will succeeed:
-# curl http://localhost
+curl http://localhost
 
 # A normal https/port443 connection will fail.
-# curl --insecure https://localhost:9000
+curl --insecure https://localhost:9000
 
 # A secured mTLS connection will succeed because client cert is passed.
 curl \
