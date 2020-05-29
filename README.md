@@ -22,5 +22,5 @@ curl \
 
 # Misc. notes:
 # Pass -v flag to see certs attach.
-# --insecure flag is used because self-signed certs are used.
+# --insecure flag is used because server.crt is self-signed.
 ```
